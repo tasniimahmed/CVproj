@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0;
+    background-color: lightgray;
+}
+.container{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+h1,h2,h4,img{
+    text-align: center;
+}
+h2{
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img {
+    border-radius: 50%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:20%;
+    height:20%;
+}
+.sideone{
+    width: 50%;
+    float: left;
+}
+.sidetwo{
+    width: 50%;
+    float: left; 
+    padding-left: 3%;
+}
+h4{
+    padding-bottom: 5%
+}
+h3{
+    color: rgb(122, 65, 122);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 2px solid rgb(122, 65, 122);
+    margin-bottom: 2%;
+    
+}
+h5{
+    color: rgb(122, 65, 122);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sections{
+    margin-bottom: 3%;
+}
+.right{
+    float:right;
+    padding-right: 20%;
+    
+}
+.circle-icon{
+    background:rgb(122, 65, 122);
+    color:white;
+    padding:5px;
+    border-radius: 50%;
+}
+
+.skills {
+    text-align: right; 
+    padding: 4px; 
+}
+
+.html {width: 35%; background-color: rgb(122, 65, 122);} 
+.cp {width: 70%; background-color: rgb(122, 65, 122);} 
+.ph {width: 1%; background-color: rgb(122, 65, 122);} 
+.ps {width: 50%; background-color: rgb(122, 65, 122);} 
+
+.skill{
+    text-align: center;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: rgb(122, 65, 122);
+    border-radius: 50%;
+    margin-left: 4px;
+    margin-right: 7px;
+    display: inline-block; /*to be able to have margins also as an icon*/
+  }
+  th{
+      padding: 2px;
+      color:rgb(122, 65, 122);
+  }
+  td{
+      padding: 15px;
+  }
+
